@@ -1,0 +1,56 @@
+#first {
+    padding: 120px 20px; /* Added horizontal padding */
+}
+
+.three {
+    text-align: center; /* Center text alignment */
+}
+
+.three h2 {
+    font-size: 2.5rem; /* Responsive size */
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    color: #272727; /* Dark text color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.three p {
+    font-size: 1rem; /* Responsive size */
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    color: rgba(39, 39, 39, 0.603); /* Gray text */
+    margin-top: 10px; /* Space above paragraph */
+    max-width: 800px; /* Limit width for better readability */
+    margin-left: auto; /* Center the paragraph */
+    margin-right: auto; /* Center the paragraph */
+}
+
+.four {
+    padding-top: 40px; /* Space above the image */
+}
+
+.four img {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    .three h2 {
+        font-size: 2rem; /* Adjust for smaller screens */
+    }
+    .three p {
+        font-size: 0.875rem; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .three h2 {
+        font-size: 1.5rem; /* Further adjust for mobile */
+    }
+    .three p {
+        font-size: 0.75rem; /* Further adjust for mobile */
+    }
+}

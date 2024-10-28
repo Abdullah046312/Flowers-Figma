@@ -1,0 +1,47 @@
+.six {
+    background-color: rgba(229, 84, 115, 0.11);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    padding: 60px 30px;
+    border-radius: 8px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.five {
+    text-align: center;
+    flex: 1; /* Allow .five to take equal space */
+    min-width: 150px; /* Minimum width for better layout */
+}
+
+.five h4 {
+    font-size: 1.25rem; /* Responsive font size */
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    color: #272727;
+    margin-top: 10px;
+}
+
+.five img {
+    width: 20%; /* Responsive image width */
+    max-width: 100px; /* Limit max width for larger screens */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    .six {
+        flex-direction: column; /* Stack elements on smaller screens */
+        align-items: center; /* Center items */
+    }
+
+    .five img {
+        width: 60%; /* Adjust image size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .five h4 {
+        font-size: 1rem; /* Adjust font size for mobile */
+    }
+}

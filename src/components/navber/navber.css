@@ -1,0 +1,39 @@
+#nav_ber {
+   
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it’s above other elements */
+    background-color: rgba(229, 84, 115, 0.11);
+   
+}
+
+.nav {
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+}
+
+.nav a {
+    color: #6482AD; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Padding for clickable area */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+    border-radius: 6px; /* Rounded corners */
+}
+
+.nav a:hover {
+    background-color: #6482AD; /* Background color on hover */
+    color: #FFFF; /* Text color on hover */
+}
+
+#nav_ber .navbar-brand {
+    font-weight: 800; /* Set font weight to 800 */
+    color: #6482AD;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+#nav_ber .navbar-brand:hover {
+    color: #87A2FF; /* Change brand color on hover */
+}

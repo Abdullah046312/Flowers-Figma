@@ -1,0 +1,62 @@
+#four {
+    padding: 80px 0; /* Uniform padding */
+}
+
+.nine {
+    text-align: center;
+}
+
+.nine h2 {
+    font-size: 2.5rem; /* Responsive size */
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    color: #272727;
+}
+
+.nine p {
+    font-size: 1rem; /* Responsive size */
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    color: rgba(39, 39, 39, 0.603);
+    margin-top: 10px;
+}
+
+.ten {
+    padding: 30px 0px; /* Responsive padding */
+}
+
+.ten img {
+    width: 100%;
+    transform: scale(1);
+    transition: transform 0.5s, box-shadow 0.5s; /* Smooth transitions */
+    box-shadow: 0px 0px 6px #624E88;
+    border-radius: 8px; /* Optional: add some border-radius */
+}
+
+.ten img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 6px #F9DBBA;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    .nine h2 {
+        font-size: 2rem; /* Adjust for smaller screens */
+    }
+    .nine p {
+        font-size: 0.875rem; /* Adjust for smaller screens */
+    }
+    .ten img {
+        /* Optional: Adjust image size for smaller screens */
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .nine h2 {
+        font-size: 1.5rem; /* Further adjust for very small screens */
+    }
+    .nine p {
+        font-size: 0.75rem; /* Further adjust for very small screens */
+    }
+}

@@ -1,0 +1,50 @@
+#footer{
+    background-color: #111010;
+    padding: 120px 0px;
+    margin-top: 120px;
+}
+
+.tharteen{
+    text-align: center;
+}
+
+.tharteen h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    color: #E55473;
+
+}
+
+.tharteen h3{
+   
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.tharteen p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    color: rgba(255, 255, 255, 0.863);
+
+}
+.tharteen h6{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    color: rgba(255, 255, 255, 0.404);
+
+}
+
+.tharteen h4{
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+}

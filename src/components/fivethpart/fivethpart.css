@@ -1,0 +1,87 @@
+.eleven {
+    background-image: url(../../assets/images12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    text-align: center; /* Moved here for clarity */
+    padding: 60px 20px; /* Adjusted padding for better responsiveness */
+}
+
+.eleven h2 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    color: #272727;
+    margin: 0; /* Reset margin for consistent spacing */
+}
+
+.eleven p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    color: rgba(39, 39, 39, 0.603);
+    margin-top: 10px; /* Space between heading and paragraph */
+}
+
+.twelve {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 20px; /* Space above input and button */
+}
+
+.twelve input {
+    height: 50px;
+    width: 100%; /* Make input responsive */
+    max-width: 500px; /* Limit max width for larger screens */
+    border: none;
+    padding-left: 20px;
+    border-radius: 8px;
+    font-family: "Lato", sans-serif; /* Ensure consistent font */
+}
+
+.twelve button {
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    color: #FFFF;
+    padding: 5px 22px;
+    background-color: #E55473;
+    border: none;
+    transition: background-color 0.5s; /* More specific transition */
+    border-radius: 8px;
+}
+
+.twelve button:hover {
+    background-color: #FABC3F;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .eleven h2 {
+        font-size: 32px; /* Smaller heading on tablets */
+    }
+
+    .eleven p {
+        font-size: 16px; /* Smaller paragraph on tablets */
+    }
+
+    .twelve input {
+        width: 80%; /* Adjust input width on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .eleven h2 {
+        font-size: 28px; /* Further reduce heading size on mobile */
+    }
+
+    .eleven p {
+        font-size: 14px; /* Further reduce paragraph size on mobile */
+    }
+
+    .twelve input {
+        width: 90%; /* Further adjust input width on mobile */
+    }
+}

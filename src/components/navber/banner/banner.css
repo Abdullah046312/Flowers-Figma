@@ -1,0 +1,75 @@
+#banner_main {
+    background-color: rgba(229, 84, 115, 0.11); /* Light background */
+    padding: 40px 0; /* Top and bottom padding */
+   
+}
+
+
+.one{
+    padding: 80px 0px;
+}
+.one h2 {
+    font-size: 4.625rem; /* Responsive size */
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    color: #272727; /* Dark text color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.one p {
+    font-size: 1rem; /* Responsive size */
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    color: rgba(39, 39, 39, 0.603); /* Gray text */
+    margin-top: 10px; /* Space above paragraph */
+    max-width: 800px; /* Max width for better readability */
+    margin-left: auto; /* Center the paragraph */
+    margin-right: auto; /* Center the paragraph */
+}
+
+.one button {
+    font-size: 1.25rem; /* Responsive size */
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    color: #FFFF; /* White text */
+    padding: 10px 30px; /* Padding for button */
+    background-color: #E55473; /* Primary button color */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 20px; /* Space above button */
+    transition: background-color 0.5s; /* Smooth background change */
+}
+.two img{
+    width: 100%;
+}
+.one button:hover {
+    background-color: #FABC3F; /* Hover color */
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    .one h2 {
+        font-size: 3rem; /* Adjust for smaller screens */
+    }
+    .one p {
+        font-size: 0.875rem; /* Adjust for smaller screens */
+    }
+    .one button {
+        font-size: 1rem; /* Adjust for smaller screens */
+    }
+    .one  {
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .one h2 {
+        font-size: 2.5rem; /* Further adjust for mobile */
+    }
+    .one p {
+        font-size: 0.75rem; /* Further adjust for mobile */
+    }
+    .one  {
+        padding: 10px 0px;
+    }
+}

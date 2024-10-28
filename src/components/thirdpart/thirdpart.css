@@ -1,0 +1,76 @@
+#third {
+    background-color: rgba(229, 84, 115, 0.11);
+    padding: 60px 0; /* Consistent vertical padding */
+    margin-top: 120px;
+}
+
+.seven {
+    padding: 60px 20px; /* Responsive padding */
+    text-align: center;
+}
+
+.seven h2 {
+    font-size: 2.5rem; /* Responsive size */
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    color: #272727;
+    display: flex;
+    justify-content: center; /* Center align */
+    gap: 10px;
+    padding: 0 20px; /* Responsive padding */
+}
+
+.seven h3 {
+    font-size: 2.rem; /* Responsive size */
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    color: #E55473;
+    margin-top: 10px; /* Added margin for spacing */
+}
+
+.seven p {
+    font-size: 1rem; /* Responsive size */
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    color: rgba(39, 39, 39, 0.603);
+    margin-top: 10px;
+}
+
+.seven button {
+    font-size: 1.25rem; /* Responsive size */
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    color: #FFFF;
+    padding: 10px 30px;
+    background-color: #E55473;
+    border: none;
+    margin-top: 10px;
+    transition: background-color 0.5s; /* Transition only on hover */
+    border-radius: 8px;
+}
+
+.seven button:hover {
+    background-color: #FABC3F;
+}
+
+.eight img {
+    width: 80%; /* Responsive width */
+    max-width: 600px; /* Optional max width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    .seven h2 {
+        font-size: 2rem; /* Adjust size for smaller screens */
+    }
+    .seven h3 {
+        font-size: 1.5rem; /* Adjust size for smaller screens */
+    }
+    .seven p {
+        font-size: 0.875rem; /* Adjust size for smaller screens */
+    }
+    .seven button {
+        font-size: 1rem; /* Adjust size for smaller screens */
+    }
+}
